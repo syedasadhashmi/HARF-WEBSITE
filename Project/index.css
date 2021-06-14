@@ -1,0 +1,123 @@
+body{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    background-color: black;
+}
+.navbar{
+    padding: 5px 20px;
+}
+.nav-link{
+    font-size: 25px;
+}
+.animation-col-img{
+    height: 65vh;
+}
+.header{
+    height: 95vh;
+    width: 100%;
+    margin-top: 70px; 
+}
+.animation-row{
+    height: 95vh;
+    align-items:center;
+}
+.sentence{
+    color: white;
+    font-size: 95px;
+}
+h1{
+    font-size: 95px;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.row-services{
+    height: 95vh;
+}
+.col-spoke-img{
+    display:flex;
+    align-items: center;
+}
+img{
+    width: 420px;
+    height: 420px;
+}
+.row-contact{
+    height: 85vh;
+}
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+    color: #5e17eb;
+}
+.col-address{
+    display: flex;
+    align-items: center;
+}
+.contact-text{
+    text-align: center;
+}
+
+.col-spoke-software{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e17eb;
+    text-align: center;
+}
+.slidingVertical{
+    display: inline;
+    text-indent: 20px;
+}
+.slidingVertical span{
+    animation: topTobottom 12.5s linear infinite 0s;
+    color: #5e17eb;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.slidingVertical span:nth-child(2){
+    animation-delay:2.5s;
+}
+.slidingVertical span:nth-child(3){
+    animation-delay:5s;
+}
+.slidingVertical span:nth-child(4){
+    animation-delay:7.5s;
+}
+@keyframes topTobottom {
+    0%{
+        opacity:0;
+    }
+    5%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    10%{
+        opacity: 1;
+        transform:translateY(0px)
+    }
+    25%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    30%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
